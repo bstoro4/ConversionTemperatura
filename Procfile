@@ -1,1 +1,2 @@
-web: java -Dserver.port=$PORT -war target/ConversionTemperatura-0.0.1-SNAPSHOT.war
+java -jar target/ConversionTemperatura-0.0.1-SNAPSHOT.war
+web: java -Dserver.port=$PORT -jar target/ConversionTemperatura-0.0.1-SNAPSHOT.war
